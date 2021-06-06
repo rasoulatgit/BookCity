@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BookShop.Models.Translator>
+
+@{
+    ViewData["Title"] = "لیست مترجمان";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="card p-0">
+    <div class="card-header bg-light">
+        لیست مترجمان
+    </div>
+    <p class="m-2">
+        <a asp-action="Create" class="btn btn-success col-md-2">ایجاد مترجم جدید</a>
+    </p>
+    <div class="card-body">
+
+        <table class="table text-center">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.LastName)
+                    </th>
+                    <th>عملیات</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LastName)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.TranslatorID" class="btn btn-info btn-icon"><i class="fa fa-edit text-white"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.TranslatorID" class="btn btn-danger btn-icon"><i class="fa fa-trash text-white"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

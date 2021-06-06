@@ -1,0 +1,22 @@
+﻿@model BookShop.Models.Author
+
+@{
+    ViewData["Title"] = "حذف نویسنده";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="card mx-md-auto col-md-8 p-0">
+        <div class="card-header  bg-light">
+            حذف نویسنده
+        </div>
+        <div class="card-body">
+            از حذف نویسنده با نام @Model.FirstName @Model.LastName اطمینان دارید؟
+        </div>
+        <form asp-action="Delete">
+            <div class="card-footer clearfix  bg-light">
+                <input type="hidden" asp-for="AuthorID" />
+                <button type="submit" class="btn btn-danger mx-2 float-left">بله</button>
+                <a asp-action="Index" class="btn btn-primary float-left"> خیر </a>
+            </div>
+        </form>
+    </div>

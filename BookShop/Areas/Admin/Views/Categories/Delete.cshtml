@@ -1,0 +1,22 @@
+﻿@model BookShop.Models.Category
+
+@{
+    ViewData["Title"] = "حذف دسته‌بندی";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card mx-md-auto col-md-8 p-0">
+    <div class="card-header  bg-light">
+        حذف دسته‌بندی
+    </div>
+    <div class="card-body">
+        از حذف دسته‌بندی  @Model.CategoryName  اطمینان دارید؟
+    </div>
+    <form asp-action="Delete">
+        <div class="card-footer clearfix  bg-light">
+            <input type="hidden" asp-for="CategoryID" />
+            <button type="submit" class="btn btn-danger mx-2 float-left">بله</button>
+            <a asp-action="Index" class="btn btn-primary float-left"> خیر </a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,28 @@
+﻿@model BookShop.Models.Province
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-light">
+                لیست شهرهای استان @Model.ProvinceName
+            </div>
+            <div class="card-body">
+                <ul class="bg-info p-5 text-right">
+                    @{ int i = 1;}
+                    @foreach (var item in Model.Cities)
+                    {
+                        <li class="ml-5 d-inline text-white">@i-@item.CityName</li>
+                        i++;
+                    }
+                </ul>
+            </div> 
+            <div class="card-footer clearfix bg-light">
+                <a asp-action="Index" class="btn"><i class="fa fa-arrow-alt-circle-right"> بازگشت </i></a>
+            </div>
+        </div>
+    </div>
+</div>
+

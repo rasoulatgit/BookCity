@@ -1,0 +1,113 @@
+﻿@model IEnumerable<BookShop.ViewModel.BookIndexHomeViewModel>
+@{
+    ViewData["Title"] = "صفحه اصلی";
+    List<BooksTreeCategoryViewModel> Categories = ViewBag.Categories;
+
+}
+
+@section Search{
+
+    <div id="topHead" class="row align-items-center rounded text-center text-white py-5 ">
+        <div class="col-md-6">
+            <img src="~/imgs/book/png/book png1.png" class="w-50" alt="logo" />
+            <h1>
+                شهر کتاب
+            </h1>
+        </div>
+        <div class="col-md-6 text-center float-left">
+            <form asp-action="Search"  method="get">
+                <label class="h3">کتاب مورد نظر خود را جستجو کنید</label><br />
+                <div class="input-group mb-3 col-md-9 mx-md-auto">
+                    <input type="text" class="form-control " name="bookTitle" placeholder="عنوان کتاب  ...">
+                    <div class="input-group-prepend">
+                        <button typeof="submit" class="btn btn-info" id="button-addon1">جستجو</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+}
+@if (ViewBag.ConfirmEmailAlert!=null)
+{
+<div class="alert mt-5 clearfix alert-primary alert-dismissible">
+    @ViewBag.ConfirmEmailAlert
+    <button class="btn btn-danger float-left" data-dismiss="alert"><span>&times;</span></button>
+</div>
+}
+<div class="row" style="margin-top: 62px">
+
+    <div id="content" class="col-12">
+
+        <div class="row mt-5">
+            <div id="placeholder"></div>
+            <div class="col-md-3 d-none d-lg-inline" id="sidebar">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        دسته بندی کتابها
+                    </div>
+                    <div class="card-body">
+                        @foreach (var item in Categories)
+                        {
+                            if (item != null)
+                            {
+                                <div class="list-group">
+                                    <a asp-action="ShowBooksWithCategory" asp-route-catID="@item.id" class="list-group-item list-group-item-action">
+                                        @item.title
+                                        <span class="float-left badge badge-info badge-pill">@item.CategoryBooksCount</span>
+                                    </a>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-12">
+
+                <h4 id="TopLastBookPublished">آخرین کتابهای منتشر شده </h4>
+                <div class="row my-5">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-8 col-md-4 col-xl-3 m-2 p-0 post">
+
+                            @if (item != null)
+                            {
+                                if (item.ImageByte != null)
+                                {
+                                    <img src="/admin/books/ShowImage/@item.BookID" class="img-fluid my-3 rounded-pill" alt="@item.Title">
+                                }
+                                else
+                                {
+                                    <img src="~/imgs/book/books/6008610091._SS,400_.jpg" class="img-fluid my-3 rounded-pill" alt="bookCity">
+                                }
+                                <h4>@item.Title</h4>
+                                <hr />
+                                <span> نویسنده : @item.AuthorName</span>
+                                <hr />
+                                <h5> قیمت : @string.Format("{0:#,## تومان}", item.Price)</h5>
+                                <p>
+                                    مختصری از کتاب :
+                                    @if (item.Summury != null)
+                                    {
+                                        @item.Summury
+                                    }
+                                    else
+                                    {
+                                        <span>خلاصه‌ای برای این کتاب ثبت نشده است. </span>
+                                    }
+                                    <span>
+                                        <button class="btn btn-info btn-block mt-5 mb-1 rounded  text-white" data-toggle="ajax-modal" data-url="/Home/Details/@item.BookID">جزئیات بیشتر</button>
+                                        <a href="#" class="btn btn-success btn-block  rounded text-white">خرید</a>
+                                    </span>
+                                </p>
+                            }
+
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

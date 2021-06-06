@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2F1IWw0f+Eiwqw7+njUx7gAAAAACAAAAAAAQZgAAAAEAACAAAADtQGFmYekH+ZVQn7WJKg8Ao8mWE7CXzO+aAmS0CslTwAAAAAAOgAAAAAIAACAAAADVdYbCJtVVGc8K37ZJd/MnRVX/hgFWXUZVSPz5+kF/pyAAAAD6VCowA5UFPL9vumZ6GJRpuw+kXVIcswIv0Q7mlKZqVkAAAABgudd2eAzUVOrKPgDYbfUzkPD46XQqu+7EyNGZ1u3BHI6/KY/BvFXHwD2rt5EQmTH+D9GW90Wd+xPUcqYYINv9</EncryptedPassword>
+    <_PublishTargetUrl>ftp://www.dev-rasoul.ir/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/13/2019 20:08:09</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>01/21/2020 05:41:52</publishTime>
+    </File>
+    <File Include="BookShop.deps.json">
+      <publishTime>01/21/2020 06:25:49</publishTime>
+    </File>
+    <File Include="BookShop.dll">
+      <publishTime>01/21/2020 06:25:39</publishTime>
+    </File>
+    <File Include="BookShop.pdb">
+      <publishTime>01/21/2020 06:25:39</publishTime>
+    </File>
+    <File Include="BookShop.runtimeconfig.json">
+      <publishTime>01/21/2020 06:25:50</publishTime>
+    </File>
+    <File Include="BookShop.Views.dll">
+      <publishTime>01/21/2020 06:25:44</publishTime>
+    </File>
+    <File Include="BookShop.Views.pdb">
+      <publishTime>01/21/2020 06:25:44</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>09/24/2019 19:58:14</publishTime>
+    </File>
+    <File Include="Magick.NET-Q16-AnyCPU.dll">
+      <publishTime>10/22/2019 21:19:50</publishTime>
+    </File>
+    <File Include="MD.PersianDateTime.Core.dll">
+      <publishTime>03/15/2018 03:47:26</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>08/09/2019 18:35:13</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>08/09/2019 18:34:41</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>09/24/2019 19:57:40</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>09/24/2019 19:57:46</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>09/24/2019 19:57:50</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>09/24/2019 19:57:48</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>09/24/2019 19:57:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>09/24/2019 19:57:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>09/24/2019 19:57:52</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 08:36:56</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>08/09/2019 18:34:46</publishTime>
+    </File>
+    <File Include="ReflectionIT.Mvc.Paging.dll">
+      <publishTime>03/13/2019 14:58:04</publishTime>
+    </File>
+    <File Include="ReflectionIT.Mvc.Paging.Views.dll">
+      <publishTime>03/13/2019 14:58:06</publishTime>
+    </File>
+    <File Include="runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so">
+      <publishTime>10/22/2019 19:25:36</publishTime>
+    </File>
+    <File Include="runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib">
+      <publishTime>10/22/2019 19:25:38</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll">
+      <publishTime>09/18/2018 19:38:14</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Magick.Native-Q16-x64.dll">
+      <publishTime>10/22/2019 19:25:32</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Magick.Native-Q16-x86.dll">
+      <publishTime>10/22/2019 19:25:32</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 08:53:58</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll">
+      <publishTime>09/18/2018 19:38:14</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>08/09/2019 18:34:56</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>08/09/2019 18:34:57</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>08/09/2019 18:34:58</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>08/09/2019 18:34:59</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>08/09/2019 18:34:59</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>09/18/2018 19:38:14</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>01/21/2020 06:25:50</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-fileinput.css">
+      <publishTime>01/16/2018 11:12:12</publishTime>
+    </File>
+    <File Include="wwwroot/css/comboTreePlugin.css">
+      <publishTime>10/19/2018 14:25:11</publishTime>
+    </File>
+    <File Include="wwwroot/css/fonts/Yekan.eot">
+      <publishTime>06/12/2014 01:30:13</publishTime>
+    </File>
+    <File Include="wwwroot/css/fonts/Yekan.svg">
+      <publishTime>06/12/2014 01:25:53</publishTime>
+    </File>
+    <File Include="wwwroot/css/fonts/Yekan.ttf">
+      <publishTime>06/12/2014 01:25:09</publishTime>
+    </File>
+    <File Include="wwwroot/css/fonts/Yekan.woff">
+      <publishTime>06/12/2014 01:25:04</publishTime>
+    </File>
+    <File Include="wwwroot/css/jquery.bonsai.css">
+      <publishTime>09/30/2018 22:19:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/jquery.md.bootstrap.datetimepicker.style.css">
+      <publishTime>10/26/1985 11:45:00</publishTime>
+    </File>
+    <File Include="wwwroot/css/jquery.md.bootstrap.datetimepicker.style.css.map">
+      <publishTime>10/26/1985 11:45:00</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>01/19/2020 20:39:19</publishTime>
+    </File>
+    <File Include="wwwroot/css/styles.css">
+      <publishTime>01/18/2020 22:26:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/TreeView.css">
+      <publishTime>10/05/2018 11:18:04</publishTime>
+    </File>
+    <File Include="wwwroot/css/_Layout.css">
+      <publishTime>01/20/2020 19:12:40</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>11/19/2019 17:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/Yekan.eot">
+      <publishTime>06/12/2014 01:30:13</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/Yekan.svg">
+      <publishTime>06/12/2014 01:25:53</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/Yekan.ttf">
+      <publishTime>06/12/2014 01:25:09</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/Yekan.woff">
+      <publishTime>06/12/2014 01:25:04</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/6008610091._SS,400_.jpg">
+      <publishTime>01/10/2020 13:07:40</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/6008610393._SS,400_.jpg">
+      <publishTime>01/10/2020 13:07:09</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/6008610512._SS,240_.jpg">
+      <publishTime>01/10/2020 13:05:28</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/6008610598._SS,400_.jpg">
+      <publishTime>01/10/2020 13:05:51</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/9648313475._SS,240_.jpg">
+      <publishTime>01/10/2020 13:05:39</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/964831361X._SS,240_.jpg">
+      <publishTime>01/10/2020 13:04:51</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/9648313903._SS,240_.jpg">
+      <publishTime>01/10/2020 13:05:05</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/9648313962._SS,240_.jpg">
+      <publishTime>01/10/2020 13:05:30</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/books/9786001182273c387e2b98f28e590d3c9f5329f89090e.jpg">
+      <publishTime>01/10/2020 13:08:39</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/805.jpg">
+      <publishTime>01/10/2020 13:02:02</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/82.jpg">
+      <publishTime>01/10/2020 13:01:40</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/84735.jpg">
+      <publishTime>01/10/2020 13:03:08</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/85.jpg">
+      <publishTime>01/10/2020 12:58:32</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/banner-book_6008610180_900_400.jpg">
+      <publishTime>01/10/2020 13:04:15</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/banner-book_6008610393_900_400.jpg">
+      <publishTime>01/10/2020 13:31:25</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/banner-book_6008610598_900_400.v2.jpg">
+      <publishTime>01/10/2020 13:03:52</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/banner-collection-1450.v2.jpg">
+      <publishTime>01/10/2020 13:03:36</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/bookHD.jpg">
+      <publishTime>01/10/2020 19:59:25</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/storytelling.jpg">
+      <publishTime>01/10/2020 19:47:19</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/carosel/روانشناسی50b99da493215004be8d90f2147830f4.jpg">
+      <publishTime>01/10/2020 12:48:05</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png1 - Copy.png">
+      <publishTime>01/10/2020 12:44:43</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png1.png">
+      <publishTime>01/10/2020 19:34:18</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png2.png">
+      <publishTime>01/10/2020 12:44:13</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png3.png">
+      <publishTime>01/10/2020 12:45:37</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png4.png">
+      <publishTime>01/10/2020 12:46:05</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png5.png">
+      <publishTime>01/10/2020 12:45:05</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/book/png/book png6.png">
+      <publishTime>01/10/2020 12:44:52</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/logo.png">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/no-image.png">
+      <publishTime>09/30/2018 23:27:32</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/No_Image_Available.jpg">
+      <publishTime>09/30/2018 23:28:41</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/rasoul71.png">
+      <publishTime>01/20/2020 21:43:14</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/search-icon.png">
+      <publishTime>09/30/2018 19:11:18</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/shab.png">
+      <publishTime>01/20/2020 20:40:35</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/test.png">
+      <publishTime>01/20/2020 21:34:55</publishTime>
+    </File>
+    <File Include="wwwroot/imgs/UserPic.png">
+      <publishTime>01/03/2019 13:23:35</publishTime>
+    </File>
+    <File Include="wwwroot/js/ajax.js">
+      <publishTime>01/18/2020 20:58:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/assets/svg-icons.css">
+      <publishTime>01/05/2018 04:51:31</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap-fileinput.js">
+      <publishTime>01/16/2018 11:10:34</publishTime>
+    </File>
+    <File Include="wwwroot/js/carbon.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/js/comboTreePlugin.js">
+      <publishTime>10/19/2018 18:06:29</publishTime>
+    </File>
+    <File Include="wwwroot/js/demo.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/js/icontains.js">
+      <publishTime>04/30/2018 16:53:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.bonsai.js">
+      <publishTime>01/05/2018 04:51:31</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.md.bootstrap.datetimepicker.js">
+      <publishTime>10/26/1985 11:45:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.md.bootstrap.datetimepicker.js.map">
+      <publishTime>10/26/1985 11:45:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.qubit.js">
+      <publishTime>01/05/2018 07:42:24</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>11/19/2019 17:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/js/TreeView.js">
+      <publishTime>01/05/2018 04:51:31</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>11/19/2019 17:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>11/19/2019 17:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>11/19/2019 17:09:33</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>11/19/2019 17:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/select2/CHANGELOG.md">
+      <publishTime>11/22/2017 07:44:36</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/css/select2.css">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/css/select2.min.css">
+      <publishTime>11/22/2017 07:37:08</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/af.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ar.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/az.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/bg.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/bs.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/build.txt">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ca.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/cs.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/da.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/de.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/dsb.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/el.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/en.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/es.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/et.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/eu.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/fa.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/fi.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/fr.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/gl.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/he.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/hi.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/hr.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/hsb.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/hu.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/hy.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/id.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/is.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/it.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ja.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/km.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ko.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/lt.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/lv.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/mk.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ms.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/nb.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/nl.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/pl.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ps.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/pt-BR.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/pt.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ro.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/ru.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/sk.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/sl.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/sr-Cyrl.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/sr.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/sv.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/th.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/tk.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/tr.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/uk.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/vi.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/zh-CN.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/i18n/zh-TW.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/select2.full.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/select2.full.min.js">
+      <publishTime>11/22/2017 07:37:08</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/select2.js">
+      <publishTime>11/22/2017 07:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/dist/js/select2.min.js">
+      <publishTime>10/03/2018 22:09:21</publishTime>
+    </File>
+    <File Include="wwwroot/select2/LICENSE.md">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/package.json">
+      <publishTime>09/28/2018 18:24:35</publishTime>
+    </File>
+    <File Include="wwwroot/select2/README.md">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/banner.end.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/banner.start.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/jquery.mousewheel.shim.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/jquery.select2.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/jquery.shim.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/containerCss.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/dropdownCss.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/initSelection.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/inputData.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/matcher.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/query.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/compat/utils.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/core.js">
+      <publishTime>11/21/2017 19:04:09</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/ajax.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/array.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/base.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/maximumInputLength.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/maximumSelectionLength.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/minimumInputLength.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/select.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/tags.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/data/tokenizer.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/defaults.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/diacritics.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/attachBody.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/attachContainer.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/closeOnSelect.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/hidePlaceholder.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/infiniteScroll.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/minimumResultsForSearch.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/search.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/selectOnClose.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/dropdown/stopPropagation.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/af.js">
+      <publishTime>10/26/2017 06:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ar.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/az.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/bg.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/bs.js">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ca.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/cs.js">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/da.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/de.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/dsb.js">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/el.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/en.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/es.js">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/et.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/eu.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/fa.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/fi.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/fr.js">
+      <publishTime>11/22/2017 04:21:39</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/gl.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/he.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/hi.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/hr.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/hsb.js">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/hu.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/hy.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/id.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/is.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/it.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ja.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/km.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ko.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/lt.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/lv.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/mk.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ms.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/nb.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/nl.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/pl.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ps.js">
+      <publishTime>10/26/2017 06:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/pt-BR.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/pt.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ro.js">
+      <publishTime>10/26/2017 01:28:03</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/ru.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/sk.js">
+      <publishTime>10/26/2017 01:30:40</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/sl.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/sr-Cyrl.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/sr.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/sv.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/th.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/tk.js">
+      <publishTime>11/22/2017 05:06:26</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/tr.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/uk.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/vi.js">
+      <publishTime>10/26/2017 06:36:58</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/zh-CN.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/i18n/zh-TW.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/keys.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/options.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/results.js">
+      <publishTime>11/22/2017 05:08:03</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/allowClear.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/base.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/clickMask.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/eventRelay.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/multiple.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/placeholder.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/search.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/single.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/selection/stopPropagation.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/translation.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/select2/utils.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/wrapper.end.js">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/js/wrapper.start.js">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/core.scss">
+      <publishTime>11/21/2017 18:21:02</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/mixins/_gradients.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/classic/layout.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/classic/_defaults.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/classic/_multiple.scss">
+      <publishTime>11/22/2017 05:03:18</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/classic/_single.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/default/layout.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/default/_multiple.scss">
+      <publishTime>10/26/2017 04:25:23</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/theme/default/_single.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/_dropdown.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/_multiple.scss">
+      <publishTime>10/26/2017 04:23:41</publishTime>
+    </File>
+    <File Include="wwwroot/select2/src/scss/_single.scss">
+      <publishTime>08/31/2017 21:05:31</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/chart.js/chart.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/chart.js/chart.min.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fa-brands.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fa-brands.min.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fa-regular.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fa-regular.min.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fa-solid.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fa-solid.min.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fontawesome-all.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fontawesome-all.min.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fontawesome.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/fontawesome.min.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-brands-400.eot">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-brands-400.svg">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-brands-400.ttf">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-brands-400.woff">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-brands-400.woff2">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-regular-400.eot">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-regular-400.svg">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-regular-400.ttf">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-regular-400.woff">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-regular-400.woff2">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-solid-900.eot">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-solid-900.svg">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-solid-900.ttf">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-solid-900.woff">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/webfonts/fa-solid-900.woff2">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/jquery/jquery.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/jquery/jquery.min.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/popper.js/popper.min.js">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/simple-line-icons/css/simple-line-icons.css">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2">
+      <publishTime>02/03/2018 15:07:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
